@@ -1,5 +1,5 @@
 ---
-title: "Introductory Resources on Multilevel Modeling"
+title: Introductory resources for multilevel modeling
 author: "Kate Petrova"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 output:
@@ -19,56 +19,109 @@ if(!suppressWarnings(require(pacman))){install.packages("pacman");library("pacma
 p_load(webshot)
 ```
 
-## Introductory resources on multilevel modeling {style="color: dark gray"}
-
 ### How to use this document?
 
-Hello and welcome to ...
+Hi there! This document was designed to serve as a loosely-organized
+collection of introductory resources[^1] on multilevel modeling.
+
+[^1]: Note: *You can find all texts in the RA resources -> Multilevel
+    modeling folder on the Google Drive.*
+
+To get a firm grasp on multilevel modeling, it is critical to understand
+the ins-and-outs of the general linear model. For this reason, the first
+section contains a collection of resources on linear regression.
+
+The subsequent section links to a variety of introductory resources on
+multilevel modeling. The resources were selected to provide both
+conceptual foundations as well as to teach you to implement multilevel
+modeling in R.
+
+You will notice that some of the readings, videos, and other resources
+go over the same information, so you might be tempted to skip over the
+parts that seem repetitive. However, in my experience, mastery of
+multilevel modeling (and many other statistical techniques more
+generally) comes from repetition. Exposing yourself to different ways of
+explaining the same information will help sharpen your understanding of
+the key concepts and procedures and teach you how to flexibly *reason*
+about multilevel modeling rather than simply memorizing definitions and
+implementation steps. This ability is absolutely essential for you to be
+able to work with a diverse range of data sets and avoid making mistakes
+(the opportunities for which are never in short supply when it comes to
+MLM!). For this reason, I recommend that you give your full attention to
+all resources and revisit them frequently as you continue with your
+learning.
+
+Best of luck with your learning! I hope you find it both engaging and
+rewarding.
 
 ### Review of linear regression
 
-...
+#### Correlation refresher
 
-#### Readings
+Begin by reading [this brief
+chapter](https://stats.libretexts.org/Bookshelves/Applied_Statistics/Book%3A_An_Introduction_to_Psychological_Statistics_(Foster_et_al.)/12%3A_Correlations)
+on correlations in the open textbook by Garett Foster.
 
-+-------------+--------------------------------------------------------+
-| *pp. 1-21*  | Winter, B. (2013). *Linear models and linear mixed     |
-|             | effects models in R with linguistic applications*.     |
-|             | <https://doi.org/10.48550/ARXIV.1308.5499>             |
-+-------------+--------------------------------------------------------+
-|             |                                                        |
-+-------------+--------------------------------------------------------+
-|             |                                                        |
-+-------------+--------------------------------------------------------+
-|             |                                                        |
-+-------------+--------------------------------------------------------+
+Play around with the interactive tool below, paying particular attention
+to how the correlation (r), shared variance (R^2^), and the visual
+representations of the two change as you drag, add, and remove data
+points.
+
+```{r variance shared, echo = FALSE}
+knitr::include_url("https://rpsychologist.com/correlation/")
+```
+
+#### Linear regression
+
+Now that you have refreshed your memory on correlations, read this
+*excellent* chapter on regression fundamentals by Rex Kline:
+
++----------------+-----------------------------------------------------+
+| pp. 25-41      | **Chapter 2: Regression Fundamentals** in Kline, R. |
+|                | B. (1998). Structural equation modeling. *New York: |
+|                | Guilford*.                                          |
++================+=====================================================+
++----------------+-----------------------------------------------------+
+
+#### Just for fun
+
+```{r spurious correlations, echo = FALSE}
+knitr::include_url("http://www.tylervigen.com/spurious-correlations")
+```
 
 ### Introduction to multilevel modeling
 
-...
-
 #### Visual introduction to hierarchical models
 
-```{r visual intro, echo=FALSE}
+```{r visual intro, echo=FALSE, echo = FALSE}
 knitr::include_url("http://mfviz.com/hierarchical-models/")
+```
+
+Check out [this brief
+video](https://www.youtube.com/watch?v=FCcVPsq8VcA&t=6s) by Tom Reader
+for more on fixed and random effects.
+
+#### Understanding different types of nested data
+
++----------------+-----------------------------------------------------+
+| **Chapters 2 & | Raudenbush, S. W., & Bryk, A. S. (2002).            |
+| 4**            | *Hierarchical linear models: Applications and data  |
+|                | analysis methods*. (Vol. 1). Sage.                  |
++----------------+-----------------------------------------------------+
+| **Chapter 2**  | Singer, J. D., Willett, J. B., & Willett, J. B.     |
+|                | (2003). *Applied longitudinal data analysis:        |
+|                | Modeling change and event occurrence*. Oxford       |
+|                | university press.                                   |
++----------------+-----------------------------------------------------+
+
+#### To center or not to center predictors?
+
+```{r centering, echo = FALSE}
+knitr::include_url("https://philippmasur.de/2018/05/23/how-to-center-in-multilevel-models/")
 ```
 
 #### Multilevel modeling in R
 
 ```{r modeling in r, echo = FALSE}
-knitr::include_url("https://m-clark.github.io/mixed-models-with-R/ ")
+knitr::include_url("https://m-clark.github.io/mixed-models-with-R/")
 ```
-
-#### Readings
-
-+-------------+--------------------------------------------------------+
-| Chapters 2  | Raudenbush, S. W., & Bryk, A. S. (2002). *Hierarchical |
-| & 4         | linear models: Applications and data analysis          |
-|             | methods*. (Vol. 1). Sage.                              |
-+-------------+--------------------------------------------------------+
-|             |                                                        |
-+-------------+--------------------------------------------------------+
-|             |                                                        |
-+-------------+--------------------------------------------------------+
-|             |                                                        |
-+-------------+--------------------------------------------------------+
