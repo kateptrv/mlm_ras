@@ -1,5 +1,5 @@
 ---
-title: Introductory resources for multilevel modeling
+title: "Introductory Resources on Multilevel Modeling"
 author: "Kate Petrova"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 output:
@@ -19,6 +19,8 @@ if(!suppressWarnings(require(pacman))){install.packages("pacman");library("pacma
 p_load(webshot)
 ```
 
+## Introductory resources on multilevel modeling {style="color: dark gray"}
+
 ### How to use this document?
 
 Hello and welcome to ...
@@ -29,17 +31,17 @@ Hello and welcome to ...
 
 #### Readings
 
-+-------------+-------------------------------------------------------+
-| *pp. 1-21*  | Winter, B. (2013). *Linear models and linear mixed    |
-|             | effects models in R with linguistic applications*.    |
-|             | <https://doi.org/10.48550/ARXIV.1308.5499>            |
-+-------------+-------------------------------------------------------+
-|             |                                                       |
-+-------------+-------------------------------------------------------+
-|             |                                                       |
-+-------------+-------------------------------------------------------+
-|             |                                                       |
-+-------------+-------------------------------------------------------+
++-------------+--------------------------------------------------------+
+| *pp. 1-21*  | Winter, B. (2013). *Linear models and linear mixed     |
+|             | effects models in R with linguistic applications*.     |
+|             | <https://doi.org/10.48550/ARXIV.1308.5499>             |
++-------------+--------------------------------------------------------+
+|             |                                                        |
++-------------+--------------------------------------------------------+
+|             |                                                        |
++-------------+--------------------------------------------------------+
+|             |                                                        |
++-------------+--------------------------------------------------------+
 
 ### Introduction to multilevel modeling
 
@@ -59,14 +61,14 @@ knitr::include_url("https://m-clark.github.io/mixed-models-with-R/ ")
 
 #### Readings
 
-+-------------+-----------------------------------------------------+
-| Chapters 2  | Raudenbush, S. W., & Bryk, A. S. (2002).            |
-| & 4         | *Hierarchical linear models: Applications and data  |
-|             | analysis methods*. (Vol. 1). Sage.                  |
-+-------------+-----------------------------------------------------+
-|             |                                                     |
-+-------------+-----------------------------------------------------+
-|             |                                                     |
-+-------------+-----------------------------------------------------+
-|             |                                                     |
-+-------------+-----------------------------------------------------+
++-------------+--------------------------------------------------------+
+| Chapters 2  | Raudenbush, S. W., & Bryk, A. S. (2002). *Hierarchical |
+| & 4         | linear models: Applications and data analysis          |
+|             | methods*. (Vol. 1). Sage.                              |
++-------------+--------------------------------------------------------+
+|             |                                                        |
++-------------+--------------------------------------------------------+
+|             |                                                        |
++-------------+--------------------------------------------------------+
+|             |                                                        |
++-------------+--------------------------------------------------------+
