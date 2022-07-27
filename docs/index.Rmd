@@ -79,11 +79,7 @@ Now that you have refreshed your memory on correlations, read this
 -   **Chapter 2 (pp.25-41): Regression Fundamentals** in Kline, R. B.
     (1998). Structural equation modeling. *New York: Guilford*.
 
-#### Just for fun
-
-```{r spurious correlations, echo = FALSE}
-knitr::include_url("http://www.tylervigen.com/spurious-correlations")
-```
+#### [Just for fun](http://www.tylervigen.com/spurious-correlations)
 
 ### Introduction to multilevel modeling
 
