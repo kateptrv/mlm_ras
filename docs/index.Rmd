@@ -76,12 +76,12 @@ knitr::include_url("https://rpsychologist.com/correlation/")
 Now that you have refreshed your memory on correlations, read this
 *excellent* chapter on regression fundamentals by Rex Kline:
 
-+----------------+-----------------------------------------------------+
-| pp. 25-41      | **Chapter 2: Regression Fundamentals** in Kline, R. |
-|                | B. (1998). Structural equation modeling. *New York: |
-|                | Guilford*.                                          |
-+================+=====================================================+
-+----------------+-----------------------------------------------------+
++------------+------------------------------------------------+
+| pp. 25-41  | **Chapter 2: Regression Fundamentals** in      |
+|            | Kline, R. B. (1998). Structural equation       |
+|            | modeling. *New York: Guilford*.                |
++============+================================================+
++------------+------------------------------------------------+
 
 #### Just for fun
 
@@ -93,7 +93,7 @@ knitr::include_url("http://www.tylervigen.com/spurious-correlations")
 
 #### Visual introduction to hierarchical models
 
-```{r visual intro, echo=FALSE, echo = FALSE}
+```{r visual intro, echo = FALSE}
 knitr::include_url("http://mfviz.com/hierarchical-models/")
 ```
 
@@ -103,16 +103,16 @@ for more on fixed and random effects.
 
 #### Understanding different types of nested data
 
-+----------------+-----------------------------------------------------+
-| **Chapters 2 & | Raudenbush, S. W., & Bryk, A. S. (2002).            |
-| 4**            | *Hierarchical linear models: Applications and data  |
-|                | analysis methods*. (Vol. 1). Sage.                  |
-+----------------+-----------------------------------------------------+
-| **Chapter 2**  | Singer, J. D., Willett, J. B., & Willett, J. B.     |
-|                | (2003). *Applied longitudinal data analysis:        |
-|                | Modeling change and event occurrence*. Oxford       |
-|                | university press.                                   |
-+----------------+-----------------------------------------------------+
++--------------+-----------------------------------------------------+
+| **Chapters 2 | Raudenbush, S. W., & Bryk, A. S. (2002).            |
+| & 4**        | *Hierarchical linear models: Applications and data  |
+|              | analysis methods*. (Vol. 1). Sage.                  |
++--------------+-----------------------------------------------------+
+| **Chapter    | Singer, J. D., Willett, J. B., & Willett, J. B.     |
+| 2**          | (2003). *Applied longitudinal data analysis:        |
+|              | Modeling change and event occurrence*. Oxford       |
+|              | university press.                                   |
++--------------+-----------------------------------------------------+
 
 #### To center or not to center predictors?
 
