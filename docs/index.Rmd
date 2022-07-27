@@ -76,12 +76,8 @@ knitr::include_url("https://rpsychologist.com/correlation/")
 Now that you have refreshed your memory on correlations, read this
 *excellent* chapter on regression fundamentals by Rex Kline:
 
-+------------+------------------------------------------------+
-| pp. 25-41  | **Chapter 2: Regression Fundamentals** in      |
-|            | Kline, R. B. (1998). Structural equation       |
-|            | modeling. *New York: Guilford*.                |
-+============+================================================+
-+------------+------------------------------------------------+
+-   **Chapter 2 (pp.25-41): Regression Fundamentals** in Kline, R. B.
+    (1998). Structural equation modeling. *New York: Guilford*.
 
 #### Just for fun
 
